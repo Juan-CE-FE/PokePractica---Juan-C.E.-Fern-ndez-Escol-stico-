@@ -149,23 +149,61 @@ main{
     border-radius: 100vmax;
 }
 
-
-
-
 .fire {
-    background-color: var(--type-fire);
-    color: var(--clr-black);
+    background-color: red;
+    color: white;
 }
 .water {
-    background-color: var(--type-water);
-    color: var(--clr-white);
+    background-color: blue;
+    color: white; 
 }
 .electric {
-    background-color: var(--type-electric);
-    color: var(--clr-black);
+    background-color: yellow;
+    color: black;
+}
+.grass {
+    background-color: green;
+    color: white;
 }
 
-.grass {
-    background-color: var(--type-grass);
-    color: var(--clr-black);
+
+.menu.fire {
+    background-color: red;
 }
+.menu.water {
+    background-color: blue;
+}
+.menu.electric {
+    background-color: yellow;
+}
+.menu.grass {
+    background-color: green;
+}
+
+.buscador-contenedor {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem 0;
+    max-width: 1000px;
+    margin: 0 auto; 
+    align-items: center;
+}
+
+#inputBuscador {
+    flex-grow: 1;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+
+#btnBuscar, #btnLimpiar {
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+
+    
+}
+
